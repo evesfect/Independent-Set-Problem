@@ -2,14 +2,13 @@
 
 ## Overview
 
-This project implements algorithms for solving the Maximum Independent Set problem in graphs, including both backtracking and brute force approaches.
+This project implements algorithms for solving the Maximum Independent Set problem in graphs.
 
 ## Features
 
 ### Solvers
 
-- Backtracking Solver: An optimized implementation using recursive backtracking
-- Brute Force Solver: A complete enumeration approach (TODO)
+- Backtracking Solver: An implementation using recursive backtracking
 
 ### Test Framework
 
