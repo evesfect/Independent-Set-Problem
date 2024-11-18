@@ -1,0 +1,34 @@
+# Project settings
+PROJECT_NAME           = "Independent Set Problem"
+PROJECT_NUMBER        = 1.0
+PROJECT_BRIEF         = "A C++ implementation of algorithms for the Maximum Independent Set problem"
+
+# Input settings
+INPUT                 = src include
+FILE_PATTERNS         = *.cc *.h
+RECURSIVE             = YES
+
+# Output settings
+OUTPUT_DIRECTORY      = docs
+GENERATE_HTML         = YES
+GENERATE_LATEX        = NO
+
+# Documentation settings
+EXTRACT_ALL           = YES
+EXTRACT_PRIVATE       = YES
+EXTRACT_STATIC        = YES
+GENERATE_TODOLIST     = YES
+WARN_IF_UNDOCUMENTED = YES
+
+# Diagram settings
+HAVE_DOT             = NO
+CLASS_DIAGRAMS      = YES
+HIDE_UNDOC_RELATIONS = NO
+
+# Source browsing settings
+SOURCE_BROWSER        = YES
+INLINE_SOURCES       = YES
+
+# Index settings
+ALPHABETICAL_INDEX   = YES
+GENERATE_TREEVIEW    = YES
