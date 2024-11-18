@@ -1,0 +1,369 @@
+Running tests...
+
+=== Running Predefined Test Cases ===
+Test case 1:
+0 1 1 
+1 0 1 
+1 1 0 
+Maximum Independent Set size: 1
+Vertices in set: 0 
+Solution validated successfully
+Runtime: 0 microseconds
+
+Test case 2:
+0 1 1 1 1 1 
+1 0 0 0 0 0 
+1 0 0 0 0 0 
+1 0 0 0 0 0 
+1 0 0 0 0 0 
+1 0 0 0 0 0 
+Maximum Independent Set size: 5
+Vertices in set: 1 2 3 4 5 
+Solution validated successfully
+Runtime: 1 microseconds
+
+Test case 3:
+0 1 0 1 
+1 0 1 0 
+0 1 0 1 
+1 0 1 0 
+Maximum Independent Set size: 2
+Vertices in set: 0 2 
+Solution validated successfully
+Runtime: 0 microseconds
+
+=== Running Random Graph Test Cases ===
+
+Random Test 1:
+Size: 5, Edge Probability: 0.3
+0 0 1 1 0 
+0 0 0 1 0 
+1 0 0 0 0 
+1 1 0 0 1 
+0 0 0 1 0 
+Maximum Independent Set size: 3
+Vertices in set: 0 1 4 
+Solution validated successfully
+Runtime: 0 microseconds
+
+Random Test 2:
+Size: 5, Edge Probability: 0.5
+0 1 1 1 0 
+1 0 0 0 1 
+1 0 0 0 1 
+1 0 0 0 0 
+0 1 1 0 0 
+Maximum Independent Set size: 3
+Vertices in set: 1 2 3 
+Solution validated successfully
+Runtime: 0 microseconds
+
+Random Test 3:
+Size: 5, Edge Probability: 0.7
+0 1 0 1 0 
+1 0 1 1 0 
+0 1 0 1 1 
+1 1 1 0 1 
+0 0 1 1 0 
+Maximum Independent Set size: 2
+Vertices in set: 0 2 
+Solution validated successfully
+Runtime: 0 microseconds
+
+Random Test 4:
+Size: 10, Edge Probability: 0.2
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 0 0 0 1 0 1 
+0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 1 
+0 0 0 0 0 1 1 0 0 1 
+1 0 0 0 1 0 0 0 0 1 
+0 0 0 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 0 
+0 1 0 1 1 1 0 0 0 0 
+Maximum Independent Set size: 5
+Vertices in set: 0 1 2 4 8 
+Solution validated successfully
+Runtime: 5 microseconds
+
+Random Test 5:
+Size: 10, Edge Probability: 0.4
+0 0 0 1 0 0 1 0 0 1 
+0 0 1 1 1 0 0 0 1 0 
+0 1 0 0 1 0 0 0 1 0 
+1 1 0 0 0 1 1 0 0 0 
+0 1 1 0 0 1 1 1 0 0 
+0 0 0 1 1 0 1 1 1 1 
+1 0 0 1 1 1 0 1 0 0 
+0 0 0 0 1 1 1 0 1 0 
+0 1 1 0 0 1 0 1 0 0 
+1 0 0 0 0 1 0 0 0 0 
+Maximum Independent Set size: 4
+Vertices in set: 2 3 7 9 
+Solution validated successfully
+Runtime: 2 microseconds
+
+Random Test 6:
+Size: 10, Edge Probability: 0.6
+0 1 0 1 1 0 1 1 0 1 
+1 0 1 1 0 0 0 0 1 1 
+0 1 0 1 0 1 0 1 1 0 
+1 1 1 0 0 0 0 1 1 1 
+1 0 0 0 0 1 1 0 0 0 
+0 0 1 0 1 0 0 1 0 0 
+1 0 0 0 1 0 0 0 0 0 
+1 0 1 1 0 1 0 0 1 0 
+0 1 1 1 0 0 0 1 0 1 
+1 1 0 1 0 0 0 0 1 0 
+Maximum Independent Set size: 3
+Vertices in set: 0 5 8 
+Solution validated successfully
+Runtime: 1 microseconds
+
+Random Test 7:
+Size: 15, Edge Probability: 0.2
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 0 0 0 1 0 1 
+0 0 0 0 0 1 1 0 0 0 0 0 0 1 1 
+0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 1 0 1 0 0 0 0 1 0 
+0 0 1 1 0 0 0 0 0 0 0 1 0 0 0 
+0 0 1 0 1 0 0 0 1 1 0 0 0 1 0 
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 
+0 0 0 0 1 0 1 0 0 0 0 0 1 1 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 
+0 1 0 1 0 0 0 0 1 0 1 0 0 1 1 
+1 0 1 0 1 0 1 0 1 0 0 0 1 0 1 
+0 1 1 0 0 0 0 1 0 0 1 1 1 1 0 
+Maximum Independent Set size: 8
+Vertices in set: 0 1 2 3 4 9 10 11 
+Solution validated successfully
+Runtime: 36 microseconds
+
+Random Test 8:
+Size: 15, Edge Probability: 0.4
+0 1 1 0 1 0 1 1 1 1 0 0 0 1 0 
+1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 
+1 0 0 0 0 1 1 0 0 1 0 0 1 0 1 
+0 1 0 0 1 1 0 0 1 0 1 0 0 1 0 
+1 0 0 1 0 0 0 0 1 0 1 1 0 0 0 
+0 0 1 1 0 0 1 1 0 0 0 0 0 0 0 
+1 1 1 0 0 1 0 1 1 1 0 1 0 0 0 
+1 0 0 0 0 1 1 0 1 0 0 0 0 0 0 
+1 0 0 1 1 0 1 1 0 1 1 1 0 0 1 
+1 0 1 0 0 0 1 0 1 0 0 0 0 0 1 
+0 0 0 1 1 0 0 0 1 0 0 0 0 1 0 
+0 1 0 0 1 0 1 0 1 0 0 0 0 1 1 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 1 1 0 0 0 
+0 1 1 0 0 0 0 0 1 1 0 1 0 0 0 
+Maximum Independent Set size: 6
+Vertices in set: 1 4 5 9 12 13 
+Solution validated successfully
+Runtime: 10 microseconds
+
+Random Test 9:
+Size: 15, Edge Probability: 0.6
+0 0 0 0 1 0 1 0 1 0 1 0 0 1 1 
+0 0 1 0 0 1 1 0 1 0 1 1 0 0 0 
+0 1 0 0 1 1 1 1 0 1 1 1 1 0 0 
+0 0 0 0 0 1 0 1 1 1 1 0 0 1 0 
+1 0 1 0 0 1 1 0 1 0 0 0 0 1 0 
+0 1 1 1 1 0 1 1 0 0 1 0 1 1 0 
+1 1 1 0 1 1 0 1 1 0 1 0 1 1 0 
+0 0 1 1 0 1 1 0 0 1 1 0 1 0 0 
+1 1 0 1 1 0 1 0 0 0 1 1 1 1 1 
+0 0 1 1 0 0 0 1 0 0 0 1 1 0 1 
+1 1 1 1 0 1 1 1 1 0 0 1 1 1 1 
+0 1 1 0 0 0 0 0 1 1 1 0 1 1 1 
+0 0 1 0 0 1 1 1 1 1 1 1 0 1 1 
+1 0 0 1 1 1 1 0 1 0 1 1 1 0 1 
+1 0 0 0 0 0 0 0 1 1 1 1 1 1 0 
+Maximum Independent Set size: 4
+Vertices in set: 0 1 3 12 
+Solution validated successfully
+Runtime: 5 microseconds
+
+Random Test 10:
+Size: 20, Edge Probability: 0.2
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 1 0 1 0 
+0 1 0 1 0 0 0 0 0 0 0 1 1 0 0 1 0 1 1 0 
+0 0 0 0 0 0 1 0 1 0 1 1 0 0 0 0 0 0 0 0 
+0 1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 
+0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+0 0 1 0 1 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+0 0 0 0 0 0 1 1 0 1 0 0 1 0 0 1 0 0 1 0 
+0 0 0 1 1 0 0 0 0 0 0 0 1 0 1 0 1 0 0 1 
+0 0 0 1 0 0 1 0 0 0 0 0 1 1 0 1 0 0 0 0 
+0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 1 0 1 0 0 1 0 1 0 0 0 0 
+Maximum Independent Set size: 10
+Vertices in set: 0 2 6 7 8 9 10 12 13 18 
+Solution validated successfully
+Runtime: 224 microseconds
+
+Random Test 11:
+Size: 20, Edge Probability: 0.3
+0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 1 0 
+0 0 1 1 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 
+0 1 0 0 0 1 0 0 1 1 1 0 0 0 0 1 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 1 
+0 0 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 0 0 1 
+0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 1 
+0 0 0 0 1 0 0 0 1 0 1 1 0 0 1 1 0 0 0 1 
+0 0 1 0 1 0 0 1 0 1 0 0 0 0 1 1 0 0 0 0 
+0 1 1 0 0 0 0 0 1 0 1 0 0 0 0 1 0 0 1 1 
+0 0 1 0 0 0 0 1 0 1 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 1 
+0 0 0 1 0 1 1 0 0 0 1 0 0 0 0 0 1 0 0 1 
+1 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 
+0 0 0 1 0 0 1 1 1 0 0 0 0 0 0 1 0 0 0 0 
+0 1 1 0 0 0 0 1 1 1 0 0 0 0 1 0 0 0 1 0 
+1 1 0 0 0 1 1 0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+1 0 0 0 0 1 1 0 0 1 0 0 0 0 0 1 0 0 0 1 
+0 0 0 1 1 0 1 1 0 1 0 1 1 0 0 0 0 0 1 0 
+Maximum Independent Set size: 7
+Vertices in set: 0 1 4 10 11 14 17 
+Solution validated successfully
+Runtime: 71 microseconds
+
+Random Test 12:
+Size: 20, Edge Probability: 0.4
+0 1 1 1 0 1 1 0 1 0 0 0 1 0 0 1 1 0 0 1 
+1 0 0 0 0 0 1 0 1 0 0 0 1 0 1 1 0 0 1 0 
+1 0 0 1 0 1 0 0 0 1 0 0 0 0 1 0 1 0 0 0 
+1 0 1 0 0 1 0 0 0 1 0 0 1 0 0 0 1 1 0 1 
+0 0 0 0 0 1 0 0 0 1 1 0 1 0 0 0 1 1 0 1 
+1 0 1 1 1 0 1 1 0 1 0 0 1 1 1 0 0 0 1 1 
+1 1 0 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 1 0 0 1 0 1 0 0 1 0 1 0 1 0 0 
+1 1 0 0 0 0 1 1 0 0 0 0 1 0 1 0 1 0 1 1 
+0 0 1 1 1 1 1 0 0 0 0 1 0 0 0 1 0 1 0 0 
+0 0 0 0 1 0 1 1 0 0 0 1 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 1 0 0 1 
+1 1 0 1 1 1 0 0 1 0 0 0 0 1 1 0 0 1 0 0 
+0 0 0 0 0 1 0 1 0 0 1 0 1 0 1 1 1 0 1 0 
+0 1 1 0 0 1 0 0 1 0 0 1 1 1 0 1 0 0 0 1 
+1 1 0 0 0 0 0 1 0 1 0 0 0 1 1 0 0 1 0 0 
+1 0 1 1 1 0 0 0 1 0 0 1 0 1 0 0 0 0 1 1 
+0 0 0 1 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 
+0 1 0 0 0 1 1 0 1 0 0 0 0 1 0 0 1 1 0 1 
+1 0 0 1 1 1 1 0 1 0 0 1 0 0 1 0 1 0 1 0 
+Maximum Independent Set size: 5
+Vertices in set: 0 4 7 11 18 
+Solution validated successfully
+Runtime: 32 microseconds
+
+Random Test 13:
+Size: 25, Edge Probability: 0.2
+0 0 0 0 1 1 0 1 0 0 0 1 0 0 0 0 1 1 0 0 0 1 0 1 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 1 1 1 0 0 
+0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 
+1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 1 1 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 0 
+0 0 0 0 0 1 1 0 1 0 1 0 0 0 0 0 0 0 0 1 1 0 0 1 0 
+0 1 0 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 1 0 1 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 
+1 0 0 0 0 0 0 0 0 1 1 1 0 0 1 0 0 0 1 0 0 0 0 0 0 
+1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 
+0 1 1 1 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 
+0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 0 0 1 0 0 1 1 1 0 0 1 0 0 0 0 0 0 0 
+1 1 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Maximum Independent Set size: 11
+Vertices in set: 1 2 3 4 5 8 10 11 14 15 24 
+Solution validated successfully
+Runtime: 665 microseconds
+
+Random Test 14:
+Size: 25, Edge Probability: 0.3
+0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 1 1 0 0 0 0 1 1 
+0 0 0 1 0 1 0 0 0 0 0 0 1 0 1 0 0 0 1 0 1 0 0 0 1 
+0 0 1 0 0 0 1 0 0 1 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 1 1 0 0 0 0 0 
+0 1 1 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 0 
+0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 1 0 1 0 0 0 0 0 0 1 
+0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 1 1 0 1 0 0 0 0 1 0 
+1 0 0 1 0 0 0 1 0 0 0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 
+1 1 0 0 1 0 0 1 0 0 0 1 0 1 0 1 0 0 0 1 0 0 0 1 0 
+1 0 0 0 1 0 0 0 0 1 1 0 0 1 0 1 0 0 0 1 0 0 0 0 0 
+0 0 1 0 0 1 0 0 1 1 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 
+0 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 
+0 0 0 1 0 0 0 1 1 1 1 1 0 0 0 0 0 0 1 0 0 0 1 0 0 
+1 0 0 1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+1 1 0 1 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 1 
+0 1 1 1 1 0 1 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 1 1 0 0 1 0 1 0 0 0 0 0 0 1 0 
+0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 1 0 0 0 
+0 1 0 0 0 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 0 0 0 1 
+0 1 1 0 0 0 0 1 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 1 0 
+Maximum Independent Set size: 9
+Vertices in set: 0 1 3 4 7 12 14 20 21 
+Solution validated successfully
+Runtime: 337 microseconds
+
+Random Test 15:
+Size: 25, Edge Probability: 0.4
+0 0 1 0 0 0 0 1 0 0 0 0 0 1 1 0 1 0 1 0 1 1 0 0 1 
+0 0 0 1 1 1 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 
+1 0 0 0 1 1 0 1 0 0 0 0 0 0 1 1 1 1 0 0 0 0 1 1 0 
+0 1 0 0 0 0 0 0 1 1 0 0 1 1 0 1 0 0 1 0 1 0 1 0 1 
+0 1 1 0 0 1 1 1 1 0 1 0 1 1 1 1 1 1 0 0 1 0 0 0 0 
+0 1 1 0 1 0 1 0 0 0 1 1 0 1 0 1 1 1 0 1 0 0 0 0 0 
+0 0 0 0 1 1 0 0 1 1 1 1 1 1 0 1 0 1 0 1 1 0 0 0 1 
+1 1 1 0 1 0 0 0 0 0 1 1 0 1 0 0 0 0 1 1 1 0 1 0 0 
+0 0 0 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 1 1 0 
+0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 1 1 1 1 0 1 0 0 1 1 0 0 0 0 1 1 0 0 1 1 1 
+0 0 0 0 0 1 1 1 0 0 0 0 1 0 0 0 0 1 0 1 0 1 0 0 1 
+0 0 0 1 1 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 1 1 1 
+1 1 0 1 1 1 1 1 0 0 1 0 0 0 1 0 0 0 1 1 0 0 1 1 0 
+1 0 1 0 1 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 1 0 1 0 
+0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 1 1 
+1 0 1 0 1 1 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 1 1 0 0 
+0 0 1 0 1 1 1 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 1 1 0 
+1 0 0 1 0 0 0 1 1 0 1 0 0 1 0 0 0 0 0 1 0 1 0 1 0 
+0 0 0 0 0 1 1 1 0 0 1 1 0 1 0 0 0 1 1 0 0 1 1 0 0 
+1 0 0 1 1 0 1 1 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 1 
+1 0 0 0 0 0 0 0 1 0 0 1 1 0 1 0 1 0 1 1 0 0 0 1 1 
+0 1 1 1 0 0 0 1 1 0 1 0 1 1 0 1 1 1 0 1 1 0 0 1 1 
+0 0 1 0 0 0 0 0 1 0 1 0 1 1 1 1 0 1 1 0 0 1 1 0 0 
+1 0 0 1 0 0 1 0 0 0 1 1 1 0 0 1 0 0 0 0 1 1 1 0 0 
+Maximum Independent Set size: 7
+Vertices in set: 0 1 8 9 12 15 17 
+Solution validated successfully
+Runtime: 109 microseconds
+
+=== Test Summary ===
+Total random tests runtime: 1497 microseconds
+Average runtime per test: 99.8 microseconds

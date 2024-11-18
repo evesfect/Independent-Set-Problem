@@ -29,6 +29,10 @@ TEST_TARGET = $(BIN_DIR)/run_tests
 # Header files
 INCLUDES = -I$(INC_DIR)
 
+# Output file for test results
+OUTPUT_FILE ?= testresult.txt
+OUTPUT_FLAG = $(if $(OUTPUT_TO_FILE),> $(OUTPUT_FILE),)
+
 # Default target
 all: directories $(TARGET)
 
@@ -55,22 +59,22 @@ clean:
 # Run the program with default test cases
 run: $(TARGET)
 	@echo "Running program with default test cases..."
-	@./$(TARGET)
+	@./$(TARGET) $(OUTPUT_FLAG)
 
 # Run with small test cases
 test-small: $(TARGET)
 	@echo "Running small test cases..."
-	@./$(TARGET) --test-size small
+	@./$(TARGET) --test-size small $(OUTPUT_FLAG)
 
 # Run with medium test cases
 test-medium: $(TARGET)
 	@echo "Running medium test cases..."
-	@./$(TARGET) --test-size medium
+	@./$(TARGET) --test-size medium $(OUTPUT_FLAG)
 
 # Run with large test cases
 test-large: $(TARGET)
 	@echo "Running large test cases..."
-	@./$(TARGET) --test-size large
+	@./$(TARGET) --test-size large $(OUTPUT_FLAG)
 
 # Run all tests
 test-all: test-small test-medium test-large

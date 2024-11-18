@@ -1,4 +1,4 @@
-// BacktrackingSolver.cpp
+// BacktrackingSolver.cc
 #include "../include/BacktrackingSolver.h"
 
 bool BacktrackingSolver::canAddVertex(const Graph& g, 
@@ -55,3 +55,4 @@ bool BacktrackingSolver::hasIndependentSetOfSize(const Graph& g, int k) {
     // Check if its size is at least k
     return maxSet.size() >= static_cast<size_t>(k);
 }
+// BacktrackingSolver.cc
