@@ -45,45 +45,52 @@ void runSpecificTests() {
     std::cout << "All specific tests passed successfully!\n";
 }
 
-void runAnalysis(int numTrials) {
+void runAnalysis(int numTrials, int graphCount) {
     GraphGenerator generator;
     StatisticalAnalyzer analyzer;
     BacktrackingSolver bruteSolver;
     HeuristicSolver heuristicSolver;
     
-    std::vector<int> graphSizes = {10, 15, 20, 25, 30};
+    std::vector<int> graphSizes = {10, 15, 20, 25, 30, 40, 50, 60, 70,};
     std::vector<double> probabilities = {0.2, 0.4, 0.6};
     std::vector<AnalysisResult> results;
+    std::vector<int> allGraphSizes;
     
     for (int size : graphSizes) {
         for (double prob : probabilities) {
-            std::cout << "Analyzing graph of size " << size 
+            std::cout << "\nAnalyzing " << graphCount << " graphs of size " << size 
                      << " with edge probability " << prob << "\n";
             
-            Graph g = generator.generateRandomGraph(size, prob);
-            auto result = analyzer.analyze(&heuristicSolver, &bruteSolver, g, numTrials);
-            results.push_back(result);
-            
-            std::cout << "Performance Metrics:\n"
-                      << "  Mean time: " << result.meanTime << " microseconds\n"
-                      << "  Confidence interval: [" << result.meanTime - result.confidenceInterval
-                      << ", " << result.meanTime + result.confidenceInterval << "]\n"
-                      << "  Interval is " << (result.isConfidenceIntervalNarrow ? "narrow" : "too wide") << "\n"
-                      << "Quality Metrics:\n"
-                      << "  Optimal solution size: " << result.optimalSize << "\n"
-                      << "  Mean heuristic size: " << result.meanHeuristicSize << "\n"
-                      << "  Approximation ratio: " << result.approximationRatio << "\n"
-                      << "  Optimal match rate: " << result.optimalMatchRate << "%\n\n";
+            for (int graphNum = 0; graphNum < graphCount; graphNum++) {
+                std::cout << "  Graph " << (graphNum + 1) << "/" << graphCount << ":\n";
+                
+                Graph g = generator.generateRandomGraph(size, prob);
+                auto result = analyzer.analyze(&heuristicSolver, &bruteSolver, g, numTrials);
+                results.push_back(result);
+                allGraphSizes.push_back(size);
+                
+                std::cout << "    Performance Metrics:\n"
+                          << "      Mean time: " << result.meanTime << " microseconds\n"
+                          << "      Confidence interval: [" << result.meanTime - result.confidenceInterval
+                          << ", " << result.meanTime + result.confidenceInterval << "]\n"
+                          << "      Interval is " << (result.isConfidenceIntervalNarrow ? "narrow" : "too wide") << "\n"
+                          << "    Quality Metrics:\n"
+                          << "      Optimal solution size: " << result.optimalSize << "\n"
+                          << "      Mean heuristic size: " << result.meanHeuristicSize << "\n"
+                          << "      Approximation ratio: " << result.approximationRatio << "\n"
+                          << "      Optimal match rate: " << result.optimalMatchRate << "%\n";
+            }
         }
     }
     
-    analyzer.saveResultsToFile(results, graphSizes, "analysis_results.csv");
+    analyzer.saveResultsToFile(results, allGraphSizes, "analysis_results.csv");
 }
 
 int main(int argc, char* argv[]) {
     if (argc > 1 && std::string(argv[1]) == "--analyze") {
         int numTrials = (argc > 2) ? std::stoi(argv[2]) : 100;
-        runAnalysis(numTrials);
+        int graphCount = (argc > 3) ? std::stoi(argv[3]) : 5;
+        runAnalysis(numTrials, graphCount);
     } else {
         TestFramework framework;
         BacktrackingSolver BruteSolver;
@@ -95,7 +102,6 @@ int main(int argc, char* argv[]) {
             std::cerr << "Error during testing: " << e.what() << std::endl;
             return 1;
         }
-
     }
     return 0;
 }

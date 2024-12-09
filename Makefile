@@ -85,8 +85,10 @@ TRIALS ?= 100
 # Analysis targets
 .PHONY: analyze
 analyze: $(TARGET)
-	@echo "Running performance analysis with $(TRIALS) trials..."
-	@./$(TARGET) --analyze $(TRIALS)
+	./$(TARGET) --analyze 100 5
+
+analyze-custom: $(TARGET)
+	./$(TARGET) --analyze $(TRIALS) $(GRAPH_COUNT)
 
 # Save analysis results to file
 analyze-to-file: $(TARGET)
@@ -129,6 +131,9 @@ profile: clean $(TARGET)
 	@./$(TARGET)
 	@gprof $(TARGET) gmon.out > profile.txt
 
+help:
+	@echo "analyze        - Run analysis with default parameters (100 trials, 5 graphs per case)"
+	@echo "analyze-custom - Run analysis with custom parameters using TRIALS=X GRAPH_COUNT=Y"
 # Dependencies
 -include $(OBJS:.o=.d)
 

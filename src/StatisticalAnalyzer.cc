@@ -76,11 +76,12 @@ void StatisticalAnalyzer::saveResultsToFile(
     const std::string& filename) {
     
     std::ofstream file(filename);
-    file << "GraphSize,MeanTime,StdDev,ConfInterval,IsNarrowInterval,"
+    file << "GraphSize,GraphInstance,MeanTime,StdDev,ConfInterval,IsNarrowInterval,"
          << "OptimalSize,MeanHeuristicSize,ApproximationRatio,OptimalMatchRate\n";
     
     for (size_t i = 0; i < results.size(); i++) {
         file << graphSizes[i] << ","
+             << (i % results.size()) + 1 << ","  // Graph instance number
              << results[i].meanTime << ","
              << results[i].standardDeviation << ","
              << results[i].confidenceInterval << ","
