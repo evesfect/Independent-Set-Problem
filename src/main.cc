@@ -1,5 +1,8 @@
 #include "TestFramework.h"
 #include "BacktrackingSolver.h"
+#include "HeuristicSolver.h"
+#include "StatisticalAnalyzer.h"
+#include <string>
 
 void runSpecificTests() {
     BacktrackingSolver solver;
@@ -42,16 +45,57 @@ void runSpecificTests() {
     std::cout << "All specific tests passed successfully!\n";
 }
 
-int main() {
-    TestFramework framework;
-    BacktrackingSolver solver;
+void runAnalysis(int numTrials) {
+    GraphGenerator generator;
+    StatisticalAnalyzer analyzer;
+    BacktrackingSolver bruteSolver;
+    HeuristicSolver heuristicSolver;
     
-    try {
-        framework.runTests(&solver);
-    } catch (const std::exception& e) {
-        std::cerr << "Error during testing: " << e.what() << std::endl;
-        return 1;
+    std::vector<int> graphSizes = {10, 15, 20, 25, 30};
+    std::vector<double> probabilities = {0.2, 0.4, 0.6};
+    std::vector<AnalysisResult> results;
+    
+    for (int size : graphSizes) {
+        for (double prob : probabilities) {
+            std::cout << "Analyzing graph of size " << size 
+                     << " with edge probability " << prob << "\n";
+            
+            Graph g = generator.generateRandomGraph(size, prob);
+            auto result = analyzer.analyze(&heuristicSolver, &bruteSolver, g, numTrials);
+            results.push_back(result);
+            
+            std::cout << "Performance Metrics:\n"
+                      << "  Mean time: " << result.meanTime << " microseconds\n"
+                      << "  Confidence interval: [" << result.meanTime - result.confidenceInterval
+                      << ", " << result.meanTime + result.confidenceInterval << "]\n"
+                      << "  Interval is " << (result.isConfidenceIntervalNarrow ? "narrow" : "too wide") << "\n"
+                      << "Quality Metrics:\n"
+                      << "  Optimal solution size: " << result.optimalSize << "\n"
+                      << "  Mean heuristic size: " << result.meanHeuristicSize << "\n"
+                      << "  Approximation ratio: " << result.approximationRatio << "\n"
+                      << "  Optimal match rate: " << result.optimalMatchRate << "%\n\n";
+        }
     }
+    
+    analyzer.saveResultsToFile(results, graphSizes, "analysis_results.csv");
+}
 
+int main(int argc, char* argv[]) {
+    if (argc > 1 && std::string(argv[1]) == "--analyze") {
+        int numTrials = (argc > 2) ? std::stoi(argv[2]) : 100;
+        runAnalysis(numTrials);
+    } else {
+        TestFramework framework;
+        BacktrackingSolver BruteSolver;
+        HeuristicSolver HeurSolver;
+        
+        try {
+            framework.runTests(&BruteSolver);
+        } catch (const std::exception& e) {
+            std::cerr << "Error during testing: " << e.what() << std::endl;
+            return 1;
+        }
+
+    }
     return 0;
 }

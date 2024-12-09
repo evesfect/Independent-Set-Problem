@@ -35,6 +35,7 @@ The project uses a comprehensive Makefile system with the following capabilities
 - `make test-medium`: Run medium test cases
 - `make test-large`: Run large test cases
 - `make test-all`: Run all test sizes
+- `make test-{size} OUTPUT_TO_FILE`: Save test results to a file
 
 #### Development Tools
 

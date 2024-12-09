@@ -79,6 +79,20 @@ test-large: $(TARGET)
 # Run all tests
 test-all: test-small test-medium test-large
 
+# Default number of trials for analysis
+TRIALS ?= 100
+
+# Analysis targets
+.PHONY: analyze
+analyze: $(TARGET)
+	@echo "Running performance analysis with $(TRIALS) trials..."
+	@./$(TARGET) --analyze $(TRIALS)
+
+# Save analysis results to file
+analyze-to-file: $(TARGET)
+	@echo "Running performance analysis and saving to file..."
+	@.$(TARGET) --analyze $(TRIALS) OUTPUT_TO_FILE=1
+
 # Build debug version
 debug:
 	@$(MAKE) BUILD=debug
@@ -102,11 +116,6 @@ install: $(TARGET)
 format:
 	@echo "Formatting source code..."
 	@find $(SRC_DIR) $(INC_DIR) -iname *.hpp -o -iname *.cc | xargs clang-format -i
-
-# Static code analysis using cppcheck
-analyze:
-	@echo "Running static code analysis..."
-	@cppcheck --enable=all --suppress=missingIncludeSystem $(SRC_DIR) $(INC_DIR)
 
 # Memory leak check using valgrind
 memcheck: $(TARGET)
