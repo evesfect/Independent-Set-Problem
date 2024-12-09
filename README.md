@@ -42,7 +42,6 @@ The project uses a comprehensive Makefile system with the following capabilities
 - `make analyze`: Run analysis with default parameters (100 trials, 5 graphs per case)
 - `make analyze-custom`: Run analysis with custom parameters using TRIALS=X GRAPH_COUNT=Y
 
-
 #### Development Tools
 
 - `make debug`: Build with debugging symbols

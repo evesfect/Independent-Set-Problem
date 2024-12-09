@@ -1,0 +1,1404 @@
+
+Analyzing 5 graphs of size 10 with edge probability 0.2
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 5.83 microseconds
+      Confidence interval: [5.56127, 6.09873]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 9.2 microseconds
+      Confidence interval: [9.01732, 9.38268]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 7
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 6.29 microseconds
+      Confidence interval: [5.83199, 6.74801]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 5.47 microseconds
+      Confidence interval: [5.32945, 5.61055]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 6.06 microseconds
+      Confidence interval: [5.97727, 6.14273]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 10 with edge probability 0.4
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 4.99 microseconds
+      Confidence interval: [4.89555, 5.08445]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 4
+      Mean heuristic size: 4
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 5.07 microseconds
+      Confidence interval: [4.98079, 5.15921]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 7.56 microseconds
+      Confidence interval: [6.68687, 8.43313]
+      Interval is too wide
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 6.96 microseconds
+      Confidence interval: [6.85987, 7.06013]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 5.1 microseconds
+      Confidence interval: [4.99032, 5.20968]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 4
+      Mean heuristic size: 4
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 10 with edge probability 0.6
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 4.04 microseconds
+      Confidence interval: [3.97821, 4.10179]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 3
+      Mean heuristic size: 3
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 4.05 microseconds
+      Confidence interval: [3.98541, 4.11459]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 4
+      Mean heuristic size: 3
+      Approximation ratio: 0.75
+      Optimal match rate: 0
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 4.27 microseconds
+      Confidence interval: [3.79817, 4.74183]
+      Interval is too wide
+    Quality Metrics:
+      Optimal solution size: 3
+      Mean heuristic size: 3
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 4.16 microseconds
+      Confidence interval: [4.05681, 4.26319]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 4
+      Mean heuristic size: 4
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 4.29 microseconds
+      Confidence interval: [4.17754, 4.40246]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 4
+      Mean heuristic size: 4
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 15 with edge probability 0.2
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 15.67 microseconds
+      Confidence interval: [15.3299, 16.0101]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 7
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 13.52 microseconds
+      Confidence interval: [13.0889, 13.9511]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 7
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 17.45 microseconds
+      Confidence interval: [17.0616, 17.8384]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 9
+      Mean heuristic size: 9
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 12.04 microseconds
+      Confidence interval: [11.2365, 12.8435]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 8
+      Mean heuristic size: 8
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 11.92 microseconds
+      Confidence interval: [11.6925, 12.1475]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 8
+      Mean heuristic size: 8
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 15 with edge probability 0.4
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 5.11 microseconds
+      Confidence interval: [4.99893, 5.22107]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 6.27 microseconds
+      Confidence interval: [5.97801, 6.56199]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 6
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 6.65 microseconds
+      Confidence interval: [6.50967, 6.79033]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 7
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 4.07 microseconds
+      Confidence interval: [3.99496, 4.14504]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 4.06 microseconds
+      Confidence interval: [3.99279, 4.12721]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 15 with edge probability 0.6
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 3.03 microseconds
+      Confidence interval: [2.98635, 3.07365]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 4
+      Mean heuristic size: 4
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 2.05 microseconds
+      Confidence interval: [1.99882, 2.10118]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 3
+      Mean heuristic size: 3
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 3.01 microseconds
+      Confidence interval: [2.9904, 3.0296]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 4
+      Mean heuristic size: 4
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 3.04 microseconds
+      Confidence interval: [2.97821, 3.10179]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 4
+      Mean heuristic size: 4
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 2.08 microseconds
+      Confidence interval: [2.01973, 2.14027]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 4
+      Mean heuristic size: 4
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 20 with edge probability 0.2
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 14.52 microseconds
+      Confidence interval: [14.3363, 14.7037]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 10
+      Mean heuristic size: 10
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 11.05 microseconds
+      Confidence interval: [9.23016, 12.8698]
+      Interval is too wide
+    Quality Metrics:
+      Optimal solution size: 10
+      Mean heuristic size: 10
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 6.21 microseconds
+      Confidence interval: [6.06181, 6.35819]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 8
+      Mean heuristic size: 8
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 6.15 microseconds
+      Confidence interval: [6.00967, 6.29033]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 8
+      Mean heuristic size: 8
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 7.02 microseconds
+      Confidence interval: [6.85059, 7.18941]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 9
+      Mean heuristic size: 9
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 20 with edge probability 0.4
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 3.08 microseconds
+      Confidence interval: [2.98896, 3.17104]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 6
+      Approximation ratio: 0.857143
+      Optimal match rate: 0
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 3.09 microseconds
+      Confidence interval: [2.99721, 3.18279]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 5
+      Approximation ratio: 0.833333
+      Optimal match rate: 0
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 3.04 microseconds
+      Confidence interval: [2.97821, 3.10179]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 4.14 microseconds
+      Confidence interval: [4.02507, 4.25493]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 7
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 3.06 microseconds
+      Confidence interval: [2.99279, 3.12721]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 5
+      Approximation ratio: 0.833333
+      Optimal match rate: 0
+
+Analyzing 5 graphs of size 20 with edge probability 0.6
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 2.54 microseconds
+      Confidence interval: [2.43061, 2.64939]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 4
+      Approximation ratio: 0.8
+      Optimal match rate: 0
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 3.02 microseconds
+      Confidence interval: [2.9808, 3.0592]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 3.09 microseconds
+      Confidence interval: [3.00599, 3.17401]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 4
+      Mean heuristic size: 4
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 2.22 microseconds
+      Confidence interval: [2.11004, 2.32996]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 4
+      Mean heuristic size: 4
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 2.48 microseconds
+      Confidence interval: [2.36353, 2.59647]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 4
+      Approximation ratio: 0.8
+      Optimal match rate: 0
+
+Analyzing 5 graphs of size 25 with edge probability 0.2
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 11.79 microseconds
+      Confidence interval: [11.3841, 12.1959]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 11
+      Mean heuristic size: 11
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 8.01 microseconds
+      Confidence interval: [7.81401, 8.20599]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 9
+      Mean heuristic size: 8
+      Approximation ratio: 0.888889
+      Optimal match rate: 0
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 10.33 microseconds
+      Confidence interval: [10.0839, 10.5761]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 11
+      Mean heuristic size: 10
+      Approximation ratio: 0.909091
+      Optimal match rate: 0
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 9.24 microseconds
+      Confidence interval: [9.04475, 9.43525]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 10
+      Mean heuristic size: 10
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 10.24 microseconds
+      Confidence interval: [10.0614, 10.4186]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 11
+      Mean heuristic size: 11
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 25 with edge probability 0.4
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 5.16 microseconds
+      Confidence interval: [5.03629, 5.28371]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 7
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 4.46 microseconds
+      Confidence interval: [4.32518, 4.59482]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 6
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 5.08 microseconds
+      Confidence interval: [4.97326, 5.18674]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 7
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 5.17 microseconds
+      Confidence interval: [5.04217, 5.29783]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 7
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 5.1 microseconds
+      Confidence interval: [4.99032, 5.20968]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 7
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 25 with edge probability 0.6
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 3.26 microseconds
+      Confidence interval: [3.16103, 3.35897]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 3.06 microseconds
+      Confidence interval: [3.00555, 3.11445]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 4
+      Mean heuristic size: 4
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 4.04 microseconds
+      Confidence interval: [3.97821, 4.10179]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 3.06 microseconds
+      Confidence interval: [2.99279, 3.12721]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 4
+      Approximation ratio: 0.8
+      Optimal match rate: 0
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 3.05 microseconds
+      Confidence interval: [2.98541, 3.11459]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 30 with edge probability 0.2
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 14.42 microseconds
+      Confidence interval: [14.1021, 14.7379]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 12
+      Mean heuristic size: 12
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 13.85 microseconds
+      Confidence interval: [13.5521, 14.1479]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 12
+      Mean heuristic size: 12
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 16.37 microseconds
+      Confidence interval: [16.1137, 16.6263]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 13
+      Mean heuristic size: 13
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 15.73 microseconds
+      Confidence interval: [15.3845, 16.0755]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 13
+      Mean heuristic size: 13
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 13.81 microseconds
+      Confidence interval: [13.3466, 14.2734]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 12
+      Mean heuristic size: 11
+      Approximation ratio: 0.916667
+      Optimal match rate: 0
+
+Analyzing 5 graphs of size 30 with edge probability 0.4
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 8.96 microseconds
+      Confidence interval: [8.61663, 9.30337]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 7
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 8.17 microseconds
+      Confidence interval: [7.75957, 8.58043]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 8
+      Mean heuristic size: 8
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 9.18 microseconds
+      Confidence interval: [8.98031, 9.37969]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 9
+      Mean heuristic size: 9
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 10.51 microseconds
+      Confidence interval: [9.86594, 11.1541]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 8
+      Mean heuristic size: 8
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 7.29 microseconds
+      Confidence interval: [6.88029, 7.69971]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 7
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 30 with edge probability 0.6
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 4.33 microseconds
+      Confidence interval: [4.19917, 4.46083]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 4
+      Approximation ratio: 0.8
+      Optimal match rate: 0
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 4.06 microseconds
+      Confidence interval: [3.97727, 4.14273]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 4
+      Approximation ratio: 0.8
+      Optimal match rate: 0
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 4.16 microseconds
+      Confidence interval: [4.05681, 4.26319]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 4
+      Approximation ratio: 0.8
+      Optimal match rate: 0
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 5.34 microseconds
+      Confidence interval: [5.17234, 5.50766]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 6
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 4.23 microseconds
+      Confidence interval: [4.10587, 4.35413]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 5
+      Mean heuristic size: 5
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 40 with edge probability 0.2
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 25.71 microseconds
+      Confidence interval: [25.3089, 26.1111]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 13
+      Mean heuristic size: 13
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 26.59 microseconds
+      Confidence interval: [26.2151, 26.9649]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 15
+      Mean heuristic size: 15
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 23.52 microseconds
+      Confidence interval: [23.1563, 23.8837]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 14
+      Mean heuristic size: 13
+      Approximation ratio: 0.928571
+      Optimal match rate: 0
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 22.75 microseconds
+      Confidence interval: [22.2877, 23.2123]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 13
+      Mean heuristic size: 12
+      Approximation ratio: 0.923077
+      Optimal match rate: 0
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 22.55 microseconds
+      Confidence interval: [22.145, 22.955]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 13
+      Mean heuristic size: 13
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 40 with edge probability 0.4
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 12.21 microseconds
+      Confidence interval: [12.0246, 12.3954]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 8
+      Mean heuristic size: 8
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 11.89 microseconds
+      Confidence interval: [11.6639, 12.1161]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 9
+      Mean heuristic size: 7
+      Approximation ratio: 0.777778
+      Optimal match rate: 0
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 11.33 microseconds
+      Confidence interval: [11.1309, 11.5291]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 8
+      Mean heuristic size: 8
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 14.23 microseconds
+      Confidence interval: [14.0005, 14.4595]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 9
+      Mean heuristic size: 9
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 11.27 microseconds
+      Confidence interval: [11.0474, 11.4926]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 8
+      Mean heuristic size: 7
+      Approximation ratio: 0.875
+      Optimal match rate: 0
+
+Analyzing 5 graphs of size 40 with edge probability 0.6
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 9.09 microseconds
+      Confidence interval: [8.96512, 9.21488]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 6
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 9.11 microseconds
+      Confidence interval: [8.9767, 9.2433]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 6
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 8.1 microseconds
+      Confidence interval: [7.95659, 8.24341]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 5
+      Approximation ratio: 0.833333
+      Optimal match rate: 0
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 8.13 microseconds
+      Confidence interval: [7.97829, 8.28171]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 6
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 9.12 microseconds
+      Confidence interval: [8.96926, 9.27074]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 6
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 50 with edge probability 0.2
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 36.95 microseconds
+      Confidence interval: [36.4521, 37.4479]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 14
+      Mean heuristic size: 14
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 40.37 microseconds
+      Confidence interval: [39.8468, 40.8932]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 15
+      Mean heuristic size: 15
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 34.99 microseconds
+      Confidence interval: [34.3281, 35.6519]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 15
+      Mean heuristic size: 13
+      Approximation ratio: 0.866667
+      Optimal match rate: 0
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 39.32 microseconds
+      Confidence interval: [38.7828, 39.8572]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 15
+      Mean heuristic size: 15
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 35.61 microseconds
+      Confidence interval: [35.1473, 36.0727]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 15
+      Mean heuristic size: 14
+      Approximation ratio: 0.933333
+      Optimal match rate: 0
+
+Analyzing 5 graphs of size 50 with edge probability 0.4
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 19.41 microseconds
+      Confidence interval: [18.9865, 19.8335]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 9
+      Mean heuristic size: 9
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 20.32 microseconds
+      Confidence interval: [20.0188, 20.6212]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 9
+      Mean heuristic size: 9
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 18.34 microseconds
+      Confidence interval: [18.0502, 18.6298]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 8
+      Mean heuristic size: 8
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 16.18 microseconds
+      Confidence interval: [15.9547, 16.4053]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 9
+      Mean heuristic size: 8
+      Approximation ratio: 0.888889
+      Optimal match rate: 0
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 19.31 microseconds
+      Confidence interval: [19.0236, 19.5964]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 9
+      Mean heuristic size: 9
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 50 with edge probability 0.6
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 11.2 microseconds
+      Confidence interval: [11.04, 11.36]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 5
+      Approximation ratio: 0.833333
+      Optimal match rate: 0
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 12.23 microseconds
+      Confidence interval: [12.0393, 12.4207]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 6
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 12.11 microseconds
+      Confidence interval: [11.9767, 12.2433]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 5
+      Approximation ratio: 0.833333
+      Optimal match rate: 0
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 12.16 microseconds
+      Confidence interval: [11.9822, 12.3378]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 6
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 11.14 microseconds
+      Confidence interval: [10.9874, 11.2926]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 5
+      Approximation ratio: 0.833333
+      Optimal match rate: 0
+
+Analyzing 5 graphs of size 60 with edge probability 0.2
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 52.54 microseconds
+      Confidence interval: [51.9256, 53.1544]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 16
+      Mean heuristic size: 15
+      Approximation ratio: 0.9375
+      Optimal match rate: 0
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 54.32 microseconds
+      Confidence interval: [53.8615, 54.7785]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 15
+      Mean heuristic size: 14
+      Approximation ratio: 0.933333
+      Optimal match rate: 0
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 51.51 microseconds
+      Confidence interval: [51.0231, 51.9969]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 16
+      Mean heuristic size: 15
+      Approximation ratio: 0.9375
+      Optimal match rate: 0
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 59.15 microseconds
+      Confidence interval: [58.5933, 59.7067]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 18
+      Mean heuristic size: 17
+      Approximation ratio: 0.944444
+      Optimal match rate: 0
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 52.07 microseconds
+      Confidence interval: [51.5057, 52.6343]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 16
+      Mean heuristic size: 15
+      Approximation ratio: 0.9375
+      Optimal match rate: 0
+
+Analyzing 5 graphs of size 60 with edge probability 0.4
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 27.5 microseconds
+      Confidence interval: [27.1892, 27.8108]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 10
+      Mean heuristic size: 10
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 28.37 microseconds
+      Confidence interval: [28.042, 28.698]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 10
+      Mean heuristic size: 10
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 30.52 microseconds
+      Confidence interval: [30.2259, 30.8141]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 11
+      Mean heuristic size: 10
+      Approximation ratio: 0.909091
+      Optimal match rate: 0
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 25.24 microseconds
+      Confidence interval: [25.0101, 25.4699]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 9
+      Mean heuristic size: 8
+      Approximation ratio: 0.888889
+      Optimal match rate: 0
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 25.37 microseconds
+      Confidence interval: [25.0919, 25.6481]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 10
+      Mean heuristic size: 8
+      Approximation ratio: 0.8
+      Optimal match rate: 0
+
+Analyzing 5 graphs of size 60 with edge probability 0.6
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 18.31 microseconds
+      Confidence interval: [18.0725, 18.5475]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 7
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 18.09 microseconds
+      Confidence interval: [17.9071, 18.2729]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 6
+      Approximation ratio: 0.857143
+      Optimal match rate: 0
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 17.26 microseconds
+      Confidence interval: [17.0638, 17.4562]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 6
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 18.36 microseconds
+      Confidence interval: [18.1195, 18.6005]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 7
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 17.12 microseconds
+      Confidence interval: [16.8984, 17.3416]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 6
+      Approximation ratio: 1
+      Optimal match rate: 1
+
+Analyzing 5 graphs of size 70 with edge probability 0.2
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 78.19 microseconds
+      Confidence interval: [66.699, 89.681]
+      Interval is too wide
+    Quality Metrics:
+      Optimal solution size: 17
+      Mean heuristic size: 16
+      Approximation ratio: 0.941176
+      Optimal match rate: 0
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 83.9 microseconds
+      Confidence interval: [83.3616, 84.4384]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 19
+      Mean heuristic size: 18
+      Approximation ratio: 0.947368
+      Optimal match rate: 0
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 73.05 microseconds
+      Confidence interval: [72.5197, 73.5803]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 17
+      Mean heuristic size: 16
+      Approximation ratio: 0.941176
+      Optimal match rate: 0
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 71.63 microseconds
+      Confidence interval: [71.0142, 72.2458]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 17
+      Mean heuristic size: 16
+      Approximation ratio: 0.941176
+      Optimal match rate: 0
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 75.66 microseconds
+      Confidence interval: [74.7663, 76.5537]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 17
+      Mean heuristic size: 16
+      Approximation ratio: 0.941176
+      Optimal match rate: 0
+
+Analyzing 5 graphs of size 70 with edge probability 0.4
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 34.56 microseconds
+      Confidence interval: [34.2253, 34.8947]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 10
+      Mean heuristic size: 10
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 38.49 microseconds
+      Confidence interval: [38.1241, 38.8559]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 11
+      Mean heuristic size: 10
+      Approximation ratio: 0.909091
+      Optimal match rate: 0
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 32.24 microseconds
+      Confidence interval: [31.6576, 32.8224]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 10
+      Mean heuristic size: 8
+      Approximation ratio: 0.8
+      Optimal match rate: 0
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 32.41 microseconds
+      Confidence interval: [32.0664, 32.7536]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 10
+      Mean heuristic size: 9
+      Approximation ratio: 0.9
+      Optimal match rate: 0
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 35.59 microseconds
+      Confidence interval: [35.2069, 35.9731]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 11
+      Mean heuristic size: 10
+      Approximation ratio: 0.909091
+      Optimal match rate: 0
+
+Analyzing 5 graphs of size 70 with edge probability 0.6
+  Graph 1/5:
+    Performance Metrics:
+      Mean time: 23.18 microseconds
+      Confidence interval: [22.948, 23.412]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 6
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 2/5:
+    Performance Metrics:
+      Mean time: 22.22 microseconds
+      Confidence interval: [22.0068, 22.4332]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 6
+      Approximation ratio: 0.857143
+      Optimal match rate: 0
+  Graph 3/5:
+    Performance Metrics:
+      Mean time: 23.27 microseconds
+      Confidence interval: [23.0527, 23.4873]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 7
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 4/5:
+    Performance Metrics:
+      Mean time: 21.25 microseconds
+      Confidence interval: [21.0408, 21.4592]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 6
+      Mean heuristic size: 6
+      Approximation ratio: 1
+      Optimal match rate: 1
+  Graph 5/5:
+    Performance Metrics:
+      Mean time: 22.26 microseconds
+      Confidence interval: [22.0292, 22.4908]
+      Interval is narrow
+    Quality Metrics:
+      Optimal solution size: 7
+      Mean heuristic size: 6
+      Approximation ratio: 0.857143
+      Optimal match rate: 0

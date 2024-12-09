@@ -85,7 +85,7 @@ TRIALS ?= 100
 # Analysis targets
 .PHONY: analyze
 analyze: $(TARGET)
-	./$(TARGET) --analyze 100 5
+	./$(TARGET) --analyze 100 5 > analysis_results.txt
 
 analyze-custom: $(TARGET)
 	./$(TARGET) --analyze $(TRIALS) $(GRAPH_COUNT)

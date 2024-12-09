@@ -78,7 +78,7 @@ void runAnalysis(int numTrials, int graphCount) {
                           << "      Optimal solution size: " << result.optimalSize << "\n"
                           << "      Mean heuristic size: " << result.meanHeuristicSize << "\n"
                           << "      Approximation ratio: " << result.approximationRatio << "\n"
-                          << "      Optimal match rate: " << result.optimalMatchRate << "%\n";
+                          << "      Optimal match rate: " << result.optimalMatchRate << "\n";
             }
         }
     }
