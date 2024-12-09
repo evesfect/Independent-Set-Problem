@@ -37,13 +37,18 @@ The project uses a comprehensive Makefile system with the following capabilities
 - `make test-all`: Run all test sizes
 - `make test-{size} OUTPUT_TO_FILE`: Save test results to a file
 
+#### Analysis
+
+- `make analyze`: Run analysis with default parameters (100 trials, 5 graphs per case)
+- `make analyze-custom`: Run analysis with custom parameters using TRIALS=X GRAPH_COUNT=Y
+
+
 #### Development Tools
 
 - `make debug`: Build with debugging symbols
 - `make release`: Build optimized release version
 - `make docs`: Generate documentation using Doxygen
 - `make format`: Format code using clang-format
-- `make analyze`: Run static analysis using cppcheck
 - `make memcheck`: Check for memory leaks using valgrind
 - `make profile`: Generate performance profile using gprof
 
